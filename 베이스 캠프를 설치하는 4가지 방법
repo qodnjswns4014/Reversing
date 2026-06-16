@@ -1,0 +1,13 @@
+<GoTo>
+  원하는 위치(주소)를 잘 기억했다가 [Ctrl + g]로 GoTo 기능을 이용해 이동하는 것.
+
+<BreakPoint(BP)>
+  마우스 더블 클릭, [F2]로 BP를 설정하여 이동한다.
+
+<Comment>
+  마우스 우클릭으로 메뉴에서 선택하거나 [;]로 주석을 단 다음 우클릭 메뉴에서 "Search for User defined comment"에 있는 주석 중 원하는 주소를 더블 클릭하면 찾아갈 수 있다.
+  (커서만 이동하게 되므로 실행을 위해서는 EIP 또한 그곳으로 이동해야 한다.)
+
+<Label>
+  <Comment>와 비슷하게 [:]를 이용해 어떠한 주소에 레이블을 설정해줄 수 있으며, "Search for User defined label"로 찾아갈 수 있다.
+  (해당 레이블이 설정된 주소는 (재시작 이후인지는 모르겠으나) 명령어에서 함수 이름 처럼 설정된 label로 띄워진다. Ex) jmp base_camp)
